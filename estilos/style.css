@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #562c82
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #5F2C82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#login {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.57);
+}
+
+aside {
+    background-image: url(../imagens/pexels-lawlesscapture-13737660.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 130px;
+    display: block;
+}
+
+
+#formulario {
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+#formulario > p {
+    text-align: left;
+}
+
+
+.pessoa {
+    background-color: #5F2C82;
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    text-align: left;
+}
+
+.caixa {
+    background-color: #94CFCD;
+    border-radius: 5px;
+    margin: auto;
+    height: 5vh;
+}
+
+#entra {
+    background-color: #94CFCD;
+    color: white;
+    height: 40px;
+    text-align: center;
+    width: 150px;
+    border-radius: 8px;
+}
+
+
+#entra:hover {
+    background-color: #2D6462;
+}
+
+#se {
+    background-color: white;
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    border-color: #94CFCD;
+}
+
+#se:hover {
+    background-color: #94CFCD;
+}

@@ -3,19 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Projeto Tela de Login</title>
-    <link rel="stylesheet" href="estilosstyle.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <main>
-        <article id="Login">
+        <article id="login">
             <aside id="imagem">
-
+                <!-- Aqui vai a imagem nas CSS -->
             </aside>
             <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="Login.php" method="post"></form>
+                <h1>Login</h1><br>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p><br>
+                <form action="Login.php" method="post">
+                    <div class="pessoa">
+                        <label for="imail"><span class="material-symbols-outlined">
+                            person
+                            </span></label>
+                        <input type="email" name="email" id="imail" required placeholder="Seu e-mail" class="caixa">
+                    </div><br>
+                    <div class="pessoa">
+                        <label for="isenha"><span class="material-symbols-outlined">
+                            passkey
+                            </span></label>
+                        <input type="password" name="senha" id="isenha" required minlength="8" placeholder="Sua senha" class="caixa">
+                    </div><br>
+                    <div>
+                        <input type="submit" value="Entrar" id="entra">
+                    </div><br>
+                    <div>
+                        <input type="submit" value="Esqueci a senha" id="se">
+                    </div>
+                </form>
             </div>
         </article>
     </main>
