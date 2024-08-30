@@ -7,9 +7,12 @@
         background-image: linear-gradient(to top, #4D8F99, #4F8095, #536A90, #57588D, #5F3083)
     }
 
+
     #login {
         width: 80vw;
         height: 300px;
+        margin: auto;
+        display: block;
     }
 
     #login > #imagem {
@@ -97,4 +100,10 @@
     #se {
         width: 510px;
     }
+
+    #login > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+
 }
